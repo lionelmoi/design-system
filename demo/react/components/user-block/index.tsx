@@ -25,6 +25,9 @@ const demos: { [demoName: string]: DemoObject } = {
     horizontal: {
         title: 'Horizontal layout',
     },
+    grid: {
+        title: 'Testing fluid grid layout',
+    },
     /* tslint:enable: object-literal-sort-keys */
 };
 
