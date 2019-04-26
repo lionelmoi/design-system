@@ -104,6 +104,8 @@ function AppDefaultConfig($locationProvider, $stateProvider, markedProvider) {
             url: 'image-block',
             views: {
                 'main@': {
+                    controller: 'DemoImageBlockController',
+                    controllerAs: 'vm',
                     template: require('./components/image-block/demo.html'),
                 },
             },
@@ -313,6 +315,7 @@ require('./components/chip/controller.js');
 require('./components/dialog/controller.js');
 require('./components/dropdown/controller.js');
 require('./components/expansion-panel/controller.js');
+require('./components/image-block/controller.js');
 require('./components/lightbox/controller.js');
 require('./components/list/controller.js');
 require('./components/notification/controller.js');
